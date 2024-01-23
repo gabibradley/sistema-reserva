@@ -1,0 +1,581 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    justify-content: center;
+}
+
+.menu a {
+    color: #f0f0f0;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 18px;
+    padding-top: 20px;
+}
+
+.menu a:hover {
+    background-color: #e52e53;
+    color: #f0f0f0;
+    border-radius: 40px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 16px;
+
+    
+}
+
+.container{
+    background-image: url('./img/sistema03.jpg');
+    background-size: cover;
+    height: 750px;
+}
+
+.container img{
+    opacity:0.3;
+}
+
+.filho1 h1 {
+    color: #f0f0f0;
+    margin-top: 67px;
+    top: 10px;
+    font-weight: lighter;
+}
+
+mark {
+    background-color: #3169d0;
+}
+
+.filho2 h2 {
+    color: #f0f0f0;
+
+}
+
+.filho1 h3 {
+    color: #06070a;
+    font-weight: lighter;
+}
+
+.minha-caixa {
+    width: 394px;
+    height: 420px;
+    background-color: #c7b8b8;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 57px auto;
+    /* bottom: 54px; */
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Adicionado para centralizar os elementos do formulário */
+}
+
+.cadastro h3{
+   font-weight: lighter; 
+   text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    border-bottom: 1px solid #ffffff;
+    background-color: #f9ecec;
+    height: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 5px;
+    border-style: solid;
+    width: 356px;
+}
+
+.cadastro button{
+    font-weight: lighter;
+}
+
+button {
+    background-color: #5d69eb;
+    color: #dfdada;
+    border-radius: 15px;
+    height: 47px;
+    padding: 9px;
+    font-size: 20px;
+    padding-right: 21px;
+    padding-left: 16px;
+    font-weight: lighter;
+}
+
+.caixas-pagamento{
+    display: flex;
+    flex-direction: row;
+}
+
+.valor-caixa1 h3, .valor-caixa2 h3, .valor-caixa3 h3{
+    font-weight:lighter;
+    font-size: 16px;
+}
+
+.caixa1 h2, .caixa2 h2, .caixa3 h2{
+    text-decoration: underline;
+}
+
+.caixa1{
+    width: 394px;
+    height: 389px;
+    background-color: #fffbfb;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 57px auto;
+    /* bottom: 54px; */
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.caixa1{
+    background-color: #a1a6dc;
+}
+
+.caixa1 button{
+    background-color: #2862cc;
+}
+
+.caixa3 button{
+    background-color: #dd0404;
+}
+.caixa2{
+    width: 394px;
+    height: 389px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 57px auto;
+    /* bottom: 54px; */
+    text-align: center;
+    background-color: #bbaaaa;
+    margin-bottom: 16px;
+}
+
+.caixa3{
+    width: 394px;
+    height: 389px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 57px auto;
+    /* bottom: 54px; */
+    margin-bottom: 16px;
+    text-align: center;
+    background-color: #e07f7d;
+}
+
+.caixa2 button{
+    background-color: #7a7272;
+}
+
+.planosDePagamento h1{
+    text-align: center;
+    margin:10px;
+    padding: 16px;
+    font-weight: lighter;
+}
+
+.planosDePagamento h1 mark{
+    background-color: #dceb0f;
+   padding: 20px;
+}
+
+.sistema{
+    text-align: center;
+    background-color: #e8d1d1;
+    height: 300px;
+    font-weight:bold;
+}
+
+.sistema h2{
+    font-weight: lighter;
+    margin-bottom: 70px;
+    color:#0a1832
+}
+
+.sistema h4{
+    font-weight: lighter;
+}
+
+.sistema button{
+   border-radius: 20px; 
+   background-color: #950a0a;
+   height: 60px;
+   margin: 22px;
+}
+
+.rodape{
+    background-color: #0c0c0c;
+    height:60px;
+    padding: 28px;
+    color:#f0f0f0;
+}
+
+/*RESPONSIVIDADE: */
+
+@media screen and (max-width: 748px) {
+    body {
+        font-size: 14px; /* Reduza o tamanho da fonte para telas menores, se necessário */
+    }
+
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        height: 70px;
+        justify-content: center;
+    }
+    
+    .menu a {
+        color: #f0f0f0;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 18px;
+        padding-top: 20px;
+    }
+    
+    .menu a:hover {
+        background-color: #e52e53;
+        color: #f0f0f0;
+        border-radius: 40px;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 16px;
+    
+        
+    }
+    
+    .container{
+        background-image: url('./img/sistema03.jpg');
+        background-size: cover;
+        height: 750px;
+    }
+    
+    .container img{
+        opacity:0.3;
+    }
+    
+    .filho1 h1 {
+        color: #f0f0f0;
+        margin-top: 67px;
+        top: 10px;
+        font-weight: lighter;
+    }
+    
+    mark {
+        background-color: #3169d0;
+    }
+    
+    .filho2 h2 {
+        color: #f0f0f0;
+    
+    }
+    
+    .filho1 h3 {
+        color: #06070a;
+        font-weight: lighter;
+    }
+    
+    .minha-caixa {
+        width: 394px;
+        height: 420px;
+        background-color: #c7b8b8;
+        border: 1px solid #ccc;
+        padding: 15px;
+        margin: 57px auto;
+        /* bottom: 54px; */
+        margin-bottom: 15px;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Adicionado para centralizar os elementos do formulário */
+    }
+    
+    .cadastro h3{
+       font-weight: lighter; 
+       text-align: center;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    input {
+        border-bottom: 1px solid #ffffff;
+        background-color: #f9ecec;
+        height: 40px;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 5px;
+        border-style: solid;
+        width: 356px;
+    }
+    
+    .cadastro button{
+        font-weight: lighter;
+    }
+    
+    button {
+        background-color: #5d69eb;
+        color: #dfdada;
+        border-radius: 15px;
+        height: 47px;
+        padding: 9px;
+        font-size: 20px;
+        padding-right: 21px;
+        padding-left: 16px;
+        font-weight: lighter;
+    }
+    
+    .caixas-pagamento{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .valor-caixa1 h3, .valor-caixa2 h3, .valor-caixa3 h3{
+        font-weight:lighter;
+        font-size: 16px;
+    }
+    
+    .caixa1 h2, .caixa2 h2, .caixa3 h2{
+        text-decoration: underline;
+    }
+    
+    .caixa1{
+        width: 394px;
+        height: 389px;
+        background-color: #fffbfb;
+        border: 1px solid #ccc;
+        padding: 15px;
+        margin: 57px auto;
+        /* bottom: 54px; */
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    
+    .caixa1{
+        background-color: #a1a6dc;
+    }
+    
+    .caixa1 button{
+        background-color: #2862cc;
+    }
+    
+    .caixa3 button{
+        background-color: #dd0404;
+    }
+    .caixa2{
+        width: 394px;
+        height: 389px;
+        border: 1px solid #ccc;
+        padding: 15px;
+        margin: 57px auto;
+        /* bottom: 54px; */
+        text-align: center;
+        background-color: #bbaaaa;
+        margin-bottom: 16px;
+    }
+    
+    .caixa3{
+        width: 394px;
+        height: 389px;
+        border: 1px solid #ccc;
+        padding: 15px;
+        margin: 57px auto;
+        /* bottom: 54px; */
+        margin-bottom: 16px;
+        text-align: center;
+        background-color: #e07f7d;
+    }
+    
+    .caixa2 button{
+        background-color: #7a7272;
+    }
+    
+    .planosDePagamento h1{
+        text-align: center;
+        margin:10px;
+        padding: 16px;
+        font-weight: lighter;
+    }
+    
+    .planosDePagamento h1 mark{
+        background-color: #dceb0f;
+       padding: 20px;
+    }
+    
+    .sistema{
+        text-align: center;
+        background-color: #e8d1d1;
+        height: 300px;
+        font-weight:bold;
+    }
+    
+    .sistema h2{
+        font-weight: lighter;
+        margin-bottom: 70px;
+        color:#0a1832
+    }
+    
+    .sistema h4{
+        font-weight: lighter;
+    }
+    
+    .sistema button{
+       border-radius: 20px; 
+       background-color: #950a0a;
+       height: 60px;
+       margin: 22px;
+    }
+    
+    .rodape{
+        background-color: #0c0c0c;
+        height:60px;
+        padding: 28px;
+        color:#f0f0f0;
+    }
+    
+    /*RESPONSIVIDADE: */
+    
+    @media screen and (max-width: 748px) {
+        body {
+            font-size: 14px; /* Reduza o tamanho da fonte para telas menores, se necessário */
+        }
+
+        .container {
+            background-image: url('./img/sistema03.jpg');
+            background-size: cover;
+            background-position: center center; /* Adicionado para centralizar a imagem */
+            height: 750px;
+        }
+    
+        .menu {
+            justify-content: space-evenly; /* Ajuste o alinhamento do menu para telas menores */
+            height: auto; /* Ajuste a altura do menu para se adaptar ao conteúdo */
+        }
+    
+        .menu a {
+            padding: 10px; /* Reduza o espaçamento do menu para telas menores */
+        }
+    
+        .row {
+            flex-direction: column; /* Mude para um layout de coluna para os filhos na tela menor */
+            align-items: center; /* Centralize os filhos na tela menor */
+        }
+    
+        .filho1, .filho2 {
+            width: 100%; /* Faça os filhos ocuparem 100% da largura em telas menores */
+            margin: 0; /* Remova a margem nos filhos */
+        }
+    
+        .minha-caixa {
+            width: 100%; /* Faça a caixa ocupar 100% da largura em telas menores */
+        }
+    
+        input {
+            width: 100%; /* Faça os inputs ocuparem 100% da largura em telas menores */
+        }
+    
+        .caixas-pagamento {
+            flex-direction: column; /* Mude para um layout de coluna para as caixas de pagamento na tela menor */
+        }
+    
+        .caixa1, .caixa2, .caixa3 {
+            width: 100%; /* Faça as caixas de pagamento ocuparem 100% da largura em telas menores */
+            margin: 0; /* Remova a margem nas caixas de pagamento */
+        }
+    
+        .planosDePagamento h1 {
+            font-size: 18px; /* Reduza o tamanho da fonte para a cabeça dos planos de pagamento */
+        }
+    
+        .sistema h2 {
+            margin-bottom: 30px; /* Reduza a margem inferior do título do sistema */
+        }
+    
+        .sistema button {
+            margin: 10px; /* Ajuste a margem do botão do sistema */
+        }
+    
+        .rodape {
+            padding: 10px; /* Ajuste o preenchimento do rodapé */
+        }
+    }
+    
+    
+    
+    
+
+    .menu {
+        justify-content: space-evenly; /* Ajuste o alinhamento do menu para telas menores */
+        height: auto; /* Ajuste a altura do menu para se adaptar ao conteúdo */
+    }
+
+    .menu a {
+        padding: 10px; /* Reduza o espaçamento do menu para telas menores */
+    }
+
+    .row {
+        flex-direction: column; /* Mude para um layout de coluna para os filhos na tela menor */
+        align-items: center; /* Centralize os filhos na tela menor */
+    }
+
+    .filho1, .filho2 {
+        width: 100%; /* Faça os filhos ocuparem 100% da largura em telas menores */
+        margin: 0; /* Remova a margem nos filhos */
+    }
+
+    .minha-caixa {
+        width: 100%; /* Faça a caixa ocupar 100% da largura em telas menores */
+    }
+
+    input {
+        width: 100%; /* Faça os inputs ocuparem 100% da largura em telas menores */
+    }
+
+    .caixas-pagamento {
+        flex-direction: column; /* Mude para um layout de coluna para as caixas de pagamento na tela menor */
+    }
+
+    .caixa1, .caixa2, .caixa3 {
+        width: 100%; /* Faça as caixas de pagamento ocuparem 100% da largura em telas menores */
+        margin: 0; /* Remova a margem nas caixas de pagamento */
+    }
+
+    .planosDePagamento h1 {
+        font-size: 18px; /* Reduza o tamanho da fonte para a cabeça dos planos de pagamento */
+    }
+
+    .sistema h2 {
+        margin-bottom: 30px; /* Reduza a margem inferior do título do sistema */
+    }
+
+    .sistema button {
+        margin: 10px; /* Ajuste a margem do botão do sistema */
+    }
+
+    .rodape {
+        padding: 10px; /* Ajuste o preenchimento do rodapé */
+    }
+}
+
+
+
